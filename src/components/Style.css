@@ -1,0 +1,97 @@
+.container{
+    display: flex;
+}
+.dashTable{
+    width: 100%;
+}
+.headingdash{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    font-size: 34px;
+    font-weight: bold;
+align-items: center;
+margin-left: 40px;
+}
+.addbtn{
+    background-color:#5C93FA;
+    width: 110px;
+    align-items: center;
+    justify-content: end;
+text-align: center;
+float: right;
+color: white;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tab{
+    width: 100%;
+}
+table thead tr{
+    font-size: 20px;
+    background-color: #5C93FA;
+}
+table tbody td{
+    text-align: center;
+padding-top: 10px;
+font-size: 20px;
+}
+
+/* Login */
+body{
+    background-color: rgb(252, 251, 251);
+}
+.containe{
+    width: 350px;
+    height: 310px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin:0 auto;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 20px; 
+    background-color: rgba(244, 246, 245, 0.993);
+    box-shadow: rgba(12, 12, 12, 0.2) 0px 7px 29px 0px;
+}
+#imge{
+    width: 50px;
+    height: 50px;
+border-radius: 50%;
+margin-left: 110px;
+}
+
+.inputSide{
+display: flex;
+    flex-direction: column;
+}
+
+.containe input{
+    padding: 10px;
+border-radius: 5px;
+font-size: 19px;
+font-style: italic;
+width: 250px;
+margin-top: 15px;
+background-color: rgba(205, 205, 205, 0.557);
+}
+
+.containe h1{
+    font-size: 28px;
+padding-top: 20px;
+font-weight: bold;    
+}
+.bt{
+    background-color: rgb(44, 132, 58);
+    width: 110px;
+    padding: 5px;
+    font-size: 23px;
+    font-weight: bold;
+color: aliceblue;
+border-radius: 20px;
+margin-top: 20px;
+}
